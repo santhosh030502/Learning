@@ -1,2 +1,3 @@
-# Learning
-Basics
+DevOps Learning
+Git, GitHub, Jenkins, CI/CD
+
