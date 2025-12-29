@@ -5,8 +5,8 @@ pipeline {
         stage('Run Elasticsearch Setup Script') {
             steps {
                 sh '''
-                chmod +x setup_elasticsearch.sh
-                ./setup_elasticsearch.sh
+                chmod +x scripts/setup_elasticsearch.sh
+                scripts/setup_elasticsearch.sh
                 '''
             }
         }
